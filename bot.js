@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "c";
-var adminprefix = '#'
+var prefix = "$";
 
 client.on("message", message => {
 
